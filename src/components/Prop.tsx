@@ -1,10 +1,22 @@
 type Props = {
   name:string
+  category: Category;
 }
 
-const Prop = ({name}: Props) => {
+export enum Category {
+  JS = "JavaScript",
+  JV = "Java",
+  P  = "Pytjon" 
+}
+
+const Prop = ({name, category}: Props) => {
   return (
-    <div>{name}</div>
+    <div>
+      <h1>{name}</h1>
+      <p>{category}</p>
+
+    </div>
+
   )
 }
 
