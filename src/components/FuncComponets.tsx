@@ -1,4 +1,6 @@
-const FuncComponents = () => {
+import { ReactElement } from "react";
+
+const FuncComponents = (): ReactElement => {
 
   const name:string = "everton";
 

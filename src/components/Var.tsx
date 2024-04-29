@@ -1,4 +1,6 @@
-const Var = () => {
+import { ReactElement } from "react";
+
+const Var = (): ReactElement=> {
 
     const name:string = "everton";
     const age: number = 23;
