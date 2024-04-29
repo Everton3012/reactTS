@@ -1,4 +1,4 @@
-const Variaveis = () => {
+const Var = () => {
 
     const name:string = "everton";
     const age: number = 23;
@@ -19,4 +19,4 @@ const Variaveis = () => {
   );
 };
 
-export default Variaveis;
+export default Var;

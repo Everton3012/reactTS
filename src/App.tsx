@@ -1,11 +1,12 @@
-import Variaveis from "./components/Variaveis";
-
+import Variaveis from "./components/Var";
+import FuncComponents from "./components/FuncComponets";
 
 function App() {
 
   return (
     <>
-      <h1><Variaveis /></h1>
+      <Variaveis />
+      <FuncComponents />
     </>
   )
 }
